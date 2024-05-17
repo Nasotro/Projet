@@ -1,4 +1,4 @@
-club_id,club_code,name,domestic_competition_id,squad_size,average_age,foreigners_number,foreigners_percentage,national_team_players,stadium_name,stadium_seats,net_transfer_record,coach_name
+﻿club_id,club_code,name,domestic_competition_id,squad_size,average_age,foreigners_number,foreigners_percentage,national_team_players,stadium_name,stadium_seats,net_transfer_record,coach_name
 969,montpellier-hsc,Montpellier Hérault Sport Club,FR1,25,25.7,12,48.0,8,Stade de la Mosson,32939,+€28.60m,
 1082,losc-lille,Lille Olympique Sporting Club Lille Métropole,FR1,25,25.4,18,72.0,7,Decathlon Arena-Stade Pierre-Mauroy,50186,+€3.65m,
 1160,nimes-olympique,Nîmes Olympique,FR1,26,25.4,12,46.2,3,Stade des Antonins,8033,+€2.50m,
