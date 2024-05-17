@@ -1,0 +1,271 @@
+game_id,date,home_club_id,away_club_id,home_club_manager_name,away_club_manager_name,stadium,attendance,referee,home_club_name,away_club_name,competition_type
+4094596,2023-08-26,583,826,Luis Enrique,Franck Haise,Parc des Princes,47000.0,François Letexier,Paris Saint-Germain Football Club,Racing Club de Lens,domestic_league
+4094622,2023-09-16,826,347,Franck Haise,László Bölöni,Stade Bollaert-Delelis,37988.0,Stéphanie Frappart,Racing Club de Lens,Football Club de Metz,domestic_league
+4094630,2023-09-24,969,273,Michel Der Zakarian,Bruno Génésio,Stade de la Mosson,15430.0,Stéphanie Frappart,Montpellier Hérault Sport Club,Stade Rennais Football Club,domestic_league
+4094647,2023-10-07,347,417,László Bölöni,Francesco Farioli,Stade Saint-Symphorien,23160.0,Jérôme Brisard,Football Club de Metz,Olympique Gymnaste Club Nice Côte d'Azur,domestic_league
+4094696,2023-12-03,244,273,Gennaro Gattuso,Julien Stéphan,Orange Vélodrome,54162.0,Willy Delajod,Olympique de Marseille,Stade Rennais Football Club,domestic_league
+4094700,2023-12-02,826,1041,Franck Haise,Pierre Sage,Stade Bollaert-Delelis,38130.0,Clément Turpin,Racing Club de Lens,Olympique Lyonnais,domestic_league
+4094718,2023-12-16,826,1421,Franck Haise,Will Still,Stade Bollaert-Delelis,38055.0,François Letexier,Racing Club de Lens,Stade de Reims,domestic_league
+4094750,2024-02-03,273,969,Julien Stéphan,Michel Der Zakarian,Roazhon Park,24898.0,Mathieu Vernice,Stade Rennais Football Club,Montpellier Hérault Sport Club,domestic_league
+4094787,2024-03-01,162,583,Adi Hütter,Luis Enrique,Stade Louis-II,14700.0,Ruddy Buquet,Association sportive de Monaco Football Club,Paris Saint-Germain Football Club,domestic_league
+4094599,2023-08-26,244,3911,Marcelino,Éric Roy,Orange Vélodrome,63592.0,Jérémy Stinat,Olympique de Marseille,Stade brestois 29,domestic_league
+4094632,2023-09-29,667,826,Patrick Vieira,Franck Haise,Stade de la Meinau,26001.0,Jérôme Brisard,Racing Club de Strasbourg Alsace,Racing Club de Lens,domestic_league
+4094704,2023-12-09,583,995,Luis Enrique,Jocelyn Gourvennec,Parc des Princes,47926.0,Jérôme Brisard,Paris Saint-Germain Football Club,Football Club de Nantes,domestic_league
+4094817,2024-03-31,417,995,Francesco Farioli,Antoine Kombouaré,Allianz Riviera,21142.0,Bastien Dechepy,Olympique Gymnaste Club Nice Côte d'Azur,Football Club de Nantes,domestic_league
+4094586,2023-08-13,3911,826,Éric Roy,Franck Haise,Stade Francis-Le Blé,15085.0,Jérémie Pignard,Stade brestois 29,Racing Club de Lens,domestic_league
+4094578,2023-08-12,583,1158,Luis Enrique,Régis Le Bris,Parc des Princes,47579.0,Bastien Dechepy,Paris Saint-Germain Football Club,Football Club Lorient-Bretagne Sud,domestic_league
+4094623,2023-09-24,583,244,Luis Enrique,Jacques Abardonado,Parc des Princes,47000.0,Willy Delajod,Paris Saint-Germain Football Club,Olympique de Marseille,domestic_league
+4094648,2023-11-29,969,3524,Michel Der Zakarian,Pascal Gastien,Stade de la Mosson,,Mathieu Vernice,Montpellier Hérault Sport Club,Clermont Foot 63,domestic_league
+4094692,2023-11-25,3524,826,Pascal Gastien,Franck Haise,Stade Gabriel-Montpied,10455.0,Benoît Millot,Clermont Foot 63,Racing Club de Lens,domestic_league
+4094734,2024-01-14,1082,1158,Paulo Fonseca,Régis Le Bris,Decathlon Arena-Stade Pierre-Mauroy,35204.0,Pierre Gaillouste,Lille Olympique Sporting Club Lille Métropole,Football Club Lorient-Bretagne Sud,domestic_league
+4094744,2024-01-26,1041,273,Pierre Sage,Julien Stéphan,Groupama Stadium,40516.0,Thomas Léonard,Olympique Lyonnais,Stade Rennais Football Club,domestic_league
+4094774,2024-02-18,969,347,Michel Der Zakarian,László Bölöni,Stade de la Mosson,12532.0,Jérémy Stinat,Montpellier Hérault Sport Club,Football Club de Metz,domestic_league
+4094815,2024-03-29,1082,826,Paulo Fonseca,Franck Haise,Decathlon Arena-Stade Pierre-Mauroy,48233.0,Willy Delajod,Lille Olympique Sporting Club Lille Métropole,Racing Club de Lens,domestic_league
+4094752,2024-02-04,1082,3524,Paulo Fonseca,Pascal Gastien,Decathlon Arena-Stade Pierre-Mauroy,38597.0,Bastien Dechepy,Lille Olympique Sporting Club Lille Métropole,Clermont Foot 63,domestic_league
+4094760,2024-02-09,244,347,Gennaro Gattuso,László Bölöni,Orange Vélodrome,62686.0,Hakim Ben El Hadj,Olympique de Marseille,Football Club de Metz,domestic_league
+4094663,2023-10-28,1421,1158,Will Still,Régis Le Bris,Stade Auguste-Delaune,14033.0,Benoît Bastien,Stade de Reims,Football Club Lorient-Bretagne Sud,domestic_league
+4094716,2023-12-15,162,1041,Adi Hütter,Pierre Sage,Stade Louis-II,5324.0,Ruddy Buquet,Association sportive de Monaco Football Club,Olympique Lyonnais,domestic_league
+4094585,2023-08-13,969,738,Michel Der Zakarian,Luka Elsner,Stade de la Mosson,15852.0,Clément Turpin,Montpellier Hérault Sport Club,Le Havre Athletic Club,domestic_league
+4094609,2023-09-03,417,667,Francesco Farioli,Patrick Vieira,Allianz Riviera,20215.0,Jérémy Stinat,Olympique Gymnaste Club Nice Côte d'Azur,Racing Club de Strasbourg Alsace,domestic_league
+4094673,2023-11-05,162,3911,Adi Hütter,Éric Roy,Stade Louis-II,9244.0,Eric Wattellier,Association sportive de Monaco Football Club,Stade brestois 29,domestic_league
+4094818,2024-03-31,3524,415,Pascal Gastien,Carles Martínez,Stade Gabriel-Montpied,10499.0,Pierre Gaillouste,Clermont Foot 63,Toulouse Football Club,domestic_league
+4094792,2024-03-03,969,667,Michel Der Zakarian,Patrick Vieira,Stade de la Mosson,11635.0,Stéphanie Frappart,Montpellier Hérault Sport Club,Racing Club de Strasbourg Alsace,domestic_league
+4094587,2023-08-19,415,583,Carles Martínez,Luis Enrique,Stadium Municipal,27332.0,Thomas Léonard,Toulouse Football Club,Paris Saint-Germain Football Club,domestic_league
+4094580,2023-08-13,273,347,Bruno Génésio,László Bölöni,Roazhon Park,26065.0,Jérémy Stinat,Stade Rennais Football Club,Football Club de Metz,domestic_league
+4094671,2023-11-04,244,1082,Gennaro Gattuso,Paulo Fonseca,Orange Vélodrome,63674.0,Stéphanie Frappart,Olympique de Marseille,Lille Olympique Sporting Club Lille Métropole,domestic_league
+4094675,2023-11-05,417,273,Francesco Farioli,Bruno Génésio,Allianz Riviera,22430.0,Clément Turpin,Olympique Gymnaste Club Nice Côte d'Azur,Stade Rennais Football Club,domestic_league
+4094772,2024-02-18,1421,826,Will Still,Franck Haise,Stade Auguste-Delaune,20116.0,Benoît Millot,Stade de Reims,Racing Club de Lens,domestic_league
+4094803,2024-03-17,273,244,Julien Stéphan,Jean-Louis Gasset,Roazhon Park,28610.0,Eric Wattellier,Stade Rennais Football Club,Olympique de Marseille,domestic_league
+4094823,2024-04-07,162,273,Adi Hütter,Julien Stéphan,Stade Louis-II,6634.0,Stéphanie Frappart,Association sportive de Monaco Football Club,Stade Rennais Football Club,domestic_league
+4094611,2023-09-03,738,1158,Luka Elsner,Régis Le Bris,Stade Océane,18707.0,Romain Lissorgue,Le Havre Athletic Club,Football Club Lorient-Bretagne Sud,domestic_league
+4094812,2024-03-31,667,273,Patrick Vieira,Julien Stéphan,Stade de la Meinau,25407.0,Hakim Ben El Hadj,Racing Club de Strasbourg Alsace,Stade Rennais Football Club,domestic_league
+4094749,2024-02-02,667,583,Patrick Vieira,Luis Enrique,Stade de la Meinau,25834.0,Ruddy Buquet,Racing Club de Strasbourg Alsace,Paris Saint-Germain Football Club,domestic_league
+4094837,2024-04-14,738,995,Luka Elsner,Antoine Kombouaré,Stade Océane,23021.0,Hakim Ben El Hadj,Le Havre Athletic Club,Football Club de Nantes,domestic_league
+4094614,2023-09-15,583,417,Luis Enrique,Francesco Farioli,Parc des Princes,47000.0,Clément Turpin,Paris Saint-Germain Football Club,Olympique Gymnaste Club Nice Côte d'Azur,domestic_league
+4094635,2023-10-01,1158,969,Régis Le Bris,Michel Der Zakarian,Stade du Moustoir,13492.0,Jérémy Stinat,Football Club Lorient-Bretagne Sud,Montpellier Hérault Sport Club,domestic_league
+4094689,2023-11-26,1158,347,Régis Le Bris,László Bölöni,Stade du Moustoir,14469.0,Jérémie Pignard,Football Club Lorient-Bretagne Sud,Football Club de Metz,domestic_league
+4094701,2023-12-02,995,417,Jocelyn Gourvennec,Francesco Farioli,Stade de la Beaujoire,26560.0,Ruddy Buquet,Football Club de Nantes,Olympique Gymnaste Club Nice Côte d'Azur,domestic_league
+4094798,2024-03-10,1082,273,Paulo Fonseca,Julien Stéphan,Decathlon Arena-Stade Pierre-Mauroy,40383.0,Benoît Millot,Lille Olympique Sporting Club Lille Métropole,Stade Rennais Football Club,domestic_league
+4094810,2024-03-17,969,583,Michel Der Zakarian,Luis Enrique,Stade de la Mosson,19202.0,Florent Batta,Montpellier Hérault Sport Club,Paris Saint-Germain Football Club,domestic_league
+4094693,2023-11-26,995,738,Pierre Aristouy,Luka Elsner,Stade de la Beaujoire,29346.0,Miguel Nogueira,Football Club de Nantes,Le Havre Athletic Club,domestic_league
+4094619,2023-09-17,1041,738,Jean-François Vulliez,Luka Elsner,Groupama Stadium,35507.0,Benoît Bastien,Olympique Lyonnais,Le Havre Athletic Club,domestic_league
+4094687,2023-11-25,667,244,Patrick Vieira,Gennaro Gattuso,Stade de la Meinau,25443.0,Jérôme Brisard,Racing Club de Strasbourg Alsace,Olympique de Marseille,domestic_league
+4094628,2023-09-24,738,3524,Luka Elsner,Pascal Gastien,Stade Océane,18071.0,Mathieu Vernice,Le Havre Athletic Club,Clermont Foot 63,domestic_league
+4094641,2023-10-06,667,995,Patrick Vieira,Pierre Aristouy,Stade de la Meinau,25274.0,Stéphanie Frappart,Racing Club de Strasbourg Alsace,Football Club de Nantes,domestic_league
+4094612,2023-09-03,347,1421,László Bölöni,Will Still,Stade Saint-Symphorien,24272.0,Mathieu Vernice,Football Club de Metz,Stade de Reims,domestic_league
+4094605,2023-09-03,415,3524,Carles Martínez,Pascal Gastien,Stadium Municipal,28285.0,Florent Batta,Toulouse Football Club,Clermont Foot 63,domestic_league
+4094613,2023-09-02,3911,273,Éric Roy,Bruno Génésio,Stade Francis-Le Blé,15201.0,Hakim Ben El Hadj,Stade brestois 29,Stade Rennais Football Club,domestic_league
+4094717,2023-12-17,1082,583,Paulo Fonseca,Luis Enrique,Decathlon Arena-Stade Pierre-Mauroy,47993.0,Willy Delajod,Lille Olympique Sporting Club Lille Métropole,Paris Saint-Germain Football Club,domestic_league
+4094731,2024-01-13,273,417,Julien Stéphan,Francesco Farioli,Roazhon Park,26680.0,Bastien Dechepy,Stade Rennais Football Club,Olympique Gymnaste Club Nice Côte d'Azur,domestic_league
+4094766,2024-02-11,969,1041,Michel Der Zakarian,Pierre Sage,Stade de la Mosson,15519.0,Pierre Gaillouste,Montpellier Hérault Sport Club,Olympique Lyonnais,domestic_league
+4094771,2024-02-16,1041,417,Pierre Sage,Francesco Farioli,Groupama Stadium,48033.0,Clément Turpin,Olympique Lyonnais,Olympique Gymnaste Club Nice Côte d'Azur,domestic_league
+4094797,2024-03-09,1158,1041,Régis Le Bris,Pierre Sage,Stade du Moustoir,16426.0,Mathieu Vernice,Football Club Lorient-Bretagne Sud,Olympique Lyonnais,domestic_league
+4094816,2024-03-30,1041,1421,Pierre Sage,Will Still,Groupama Stadium,43097.0,Thomas Léonard,Olympique Lyonnais,Stade de Reims,domestic_league
+4094782,2024-02-25,826,162,Franck Haise,Adi Hütter,Stade Bollaert-Delelis,37992.0,François Letexier,Racing Club de Lens,Association sportive de Monaco Football Club,domestic_league
+4094763,2024-02-11,3524,3911,Pascal Gastien,Éric Roy,Stade Gabriel-Montpied,8893.0,Stéphanie Frappart,Clermont Foot 63,Stade brestois 29,domestic_league
+4094669,2023-11-05,667,3524,Patrick Vieira,Pascal Gastien,Stade de la Meinau,25039.0,Jérémy Stinat,Racing Club de Strasbourg Alsace,Clermont Foot 63,domestic_league
+4094723,2023-12-20,667,1082,Patrick Vieira,Paulo Fonseca,Stade de la Meinau,25373.0,Clément Turpin,Racing Club de Strasbourg Alsace,Lille Olympique Sporting Club Lille Métropole,domestic_league
+4094739,2024-01-14,3911,969,Éric Roy,Michel Der Zakarian,Stade Francis-Le Blé,12712.0,Jérémie Pignard,Stade brestois 29,Montpellier Hérault Sport Club,domestic_league
+4094724,2023-12-20,415,162,Carles Martínez,Adi Hütter,Stadium Municipal,23881.0,Jérôme Brisard,Toulouse Football Club,Association sportive de Monaco Football Club,domestic_league
+4094590,2023-08-20,1082,995,Paulo Fonseca,Pierre Aristouy,Decathlon Arena-Stade Pierre-Mauroy,34356.0,Pierre Gaillouste,Lille Olympique Sporting Club Lille Métropole,Football Club de Nantes,domestic_league
+4094676,2023-11-05,995,1421,Pierre Aristouy,Will Still,Stade de la Beaujoire,33621.0,Gaël Angoula,Football Club de Nantes,Stade de Reims,domestic_league
+4094722,2023-12-20,583,347,Luis Enrique,László Bölöni,Parc des Princes,48229.0,Ruddy Buquet,Paris Saint-Germain Football Club,Football Club de Metz,domestic_league
+4094745,2024-01-27,417,347,Francesco Farioli,László Bölöni,Allianz Riviera,20137.0,Stéphanie Frappart,Olympique Gymnaste Club Nice Côte d'Azur,Football Club de Metz,domestic_league
+4094755,2024-02-03,995,826,Jocelyn Gourvennec,Franck Haise,Stade de la Beaujoire,34167.0,Florent Batta,Football Club de Nantes,Racing Club de Lens,domestic_league
+4094813,2024-03-31,244,583,Jean-Louis Gasset,Luis Enrique,Orange Vélodrome,66046.0,Benoît Bastien,Olympique de Marseille,Paris Saint-Germain Football Club,domestic_league
+4094836,2024-04-14,3524,969,Pascal Gastien,Michel Der Zakarian,Stade Gabriel-Montpied,10174.0,Thomas Léonard,Clermont Foot 63,Montpellier Hérault Sport Club,domestic_league
+4094842,2024-04-19,417,1158,Francesco Farioli,Régis Le Bris,Allianz Riviera,21067.0,Jérémy Stinat,Olympique Gymnaste Club Nice Côte d'Azur,Football Club Lorient-Bretagne Sud,domestic_league
+4094773,2024-02-17,995,583,Jocelyn Gourvennec,Luis Enrique,Stade de la Beaujoire,34038.0,Jérôme Brisard,Football Club de Nantes,Paris Saint-Germain Football Club,domestic_league
+4094799,2024-03-08,417,969,Francesco Farioli,Michel Der Zakarian,Allianz Riviera,21819.0,Ruddy Buquet,Olympique Gymnaste Club Nice Côte d'Azur,Montpellier Hérault Sport Club,domestic_league
+4094666,2023-10-29,969,415,Michel Der Zakarian,Carles Martínez,Stade de la Mosson,13209.0,Thomas Léonard,Montpellier Hérault Sport Club,Toulouse Football Club,domestic_league
+4094738,2024-01-14,347,415,László Bölöni,Carles Martínez,Stade Saint-Symphorien,21065.0,Florent Batta,Football Club de Metz,Toulouse Football Club,domestic_league
+4094770,2024-02-17,1082,738,Paulo Fonseca,Luka Elsner,Decathlon Arena-Stade Pierre-Mauroy,40317.0,Jérémie Pignard,Lille Olympique Sporting Club Lille Métropole,Le Havre Athletic Club,domestic_league
+4094814,2024-03-31,1158,3911,Régis Le Bris,Éric Roy,Stade du Moustoir,16745.0,Jérôme Brisard,Football Club Lorient-Bretagne Sud,Stade brestois 29,domestic_league
+4094826,2024-04-06,826,738,Franck Haise,Luka Elsner,Stade Bollaert-Delelis,38223.0,François Letexier,Racing Club de Lens,Le Havre Athletic Club,domestic_league
+4094650,2023-10-21,583,667,Luis Enrique,Patrick Vieira,Parc des Princes,41261.0,Bastien Dechepy,Paris Saint-Germain Football Club,Racing Club de Strasbourg Alsace,domestic_league
+4094759,2024-02-11,415,995,Carles Martínez,Jocelyn Gourvennec,Stadium Municipal,28933.0,Gaël Angoula,Toulouse Football Club,Football Club de Nantes,domestic_league
+4094811,2024-03-17,3911,1082,Éric Roy,Paulo Fonseca,Stade Francis-Le Blé,14774.0,Clément Turpin,Stade brestois 29,Lille Olympique Sporting Club Lille Métropole,domestic_league
+4094829,2024-04-07,3911,347,Éric Roy,László Bölöni,Stade Francis-Le Blé,14656.0,Benoît Millot,Stade brestois 29,Football Club de Metz,domestic_league
+4094616,2023-09-16,273,1082,Bruno Génésio,Paulo Fonseca,Roazhon Park,28178.0,Jérôme Brisard,Stade Rennais Football Club,Lille Olympique Sporting Club Lille Métropole,domestic_league
+4094674,2023-11-05,1041,347,Fabio Grosso,László Bölöni,Groupama Stadium,42040.0,Benoît Millot,Olympique Lyonnais,Football Club de Metz,domestic_league
+4094726,2023-12-20,417,826,Francesco Farioli,Franck Haise,Allianz Riviera,25041.0,Hakim Ben El Hadj,Olympique Gymnaste Club Nice Côte d'Azur,Racing Club de Lens,domestic_league
+4094747,2024-01-28,1421,995,Will Still,Jocelyn Gourvennec,Stade Auguste-Delaune,14388.0,Jérémie Pignard,Stade de Reims,Football Club de Nantes,domestic_league
+4094758,2024-02-10,583,1082,Luis Enrique,Paulo Fonseca,Parc des Princes,47716.0,François Letexier,Paris Saint-Germain Football Club,Lille Olympique Sporting Club Lille Métropole,domestic_league
+4094791,2024-03-03,995,347,Jocelyn Gourvennec,László Bölöni,Stade de la Beaujoire,27132.0,Eric Wattellier,Football Club de Nantes,Football Club de Metz,domestic_league
+4094637,2023-10-01,417,3911,Francesco Farioli,Éric Roy,Allianz Riviera,32044.0,Romain Lissorgue,Olympique Gymnaste Club Nice Côte d'Azur,Stade brestois 29,domestic_league
+4094654,2023-10-22,1082,3911,Paulo Fonseca,Éric Roy,Decathlon Arena-Stade Pierre-Mauroy,34358.0,Hakim Ben El Hadj,Lille Olympique Sporting Club Lille Métropole,Stade brestois 29,domestic_league
+4094708,2023-12-10,1041,415,Pierre Sage,Carles Martínez,Groupama Stadium,36777.0,Pierre Gaillouste,Olympique Lyonnais,Toulouse Football Club,domestic_league
+4094767,2024-02-18,667,1158,Patrick Vieira,Régis Le Bris,Stade de la Meinau,25103.0,Thomas Léonard,Racing Club de Strasbourg Alsace,Football Club Lorient-Bretagne Sud,domestic_league
+4094801,2024-03-10,738,415,Luka Elsner,Carles Martínez,Stade Océane,21462.0,Romain Lissorgue,Le Havre Athletic Club,Toulouse Football Club,domestic_league
+4094670,2023-11-05,415,738,Carles Martínez,Luka Elsner,Stadium Municipal,23060.0,Marc Bollengier,Toulouse Football Club,Le Havre Athletic Club,domestic_league
+4094594,2023-08-20,738,3911,Luka Elsner,Éric Roy,Stade Océane,19574.0,Florent Batta,Le Havre Athletic Club,Stade brestois 29,domestic_league
+4094685,2023-12-07,3911,667,Éric Roy,Patrick Vieira,Stade Francis-Le Blé,14569.0,Jérémie Pignard,Stade brestois 29,Racing Club de Strasbourg Alsace,domestic_league
+4094645,2023-10-07,1421,162,Will Still,Adi Hütter,Stade Auguste-Delaune,19000.0,Hakim Ben El Hadj,Stade de Reims,Association sportive de Monaco Football Club,domestic_league
+4094733,2024-01-13,162,1421,Adi Hütter,Will Still,Stade Louis-II,4231.0,François Letexier,Association sportive de Monaco Football Club,Stade de Reims,domestic_league
+4094830,2024-04-13,667,1421,Patrick Vieira,Will Still,Stade de la Meinau,25436.0,Willy Delajod,Racing Club de Strasbourg Alsace,Stade de Reims,domestic_league
+4094642,2023-10-08,273,583,Bruno Génésio,Luis Enrique,Roazhon Park,27734.0,Benoît Bastien,Stade Rennais Football Club,Paris Saint-Germain Football Club,domestic_league
+4094677,2023-11-12,273,1041,Bruno Génésio,Fabio Grosso,Roazhon Park,28441.0,Stéphanie Frappart,Stade Rennais Football Club,Olympique Lyonnais,domestic_league
+4094706,2023-12-09,273,162,Julien Stéphan,Adi Hütter,Roazhon Park,26856.0,Clément Turpin,Stade Rennais Football Club,Association sportive de Monaco Football Club,domestic_league
+4094714,2023-12-17,244,3524,Gennaro Gattuso,Pascal Gastien,Orange Vélodrome,63753.0,Gaël Angoula,Olympique de Marseille,Clermont Foot 63,domestic_league
+4094821,2024-04-06,583,3524,Luis Enrique,Pascal Gastien,Parc des Princes,47607.0,Gaël Angoula,Paris Saint-Germain Football Club,Clermont Foot 63,domestic_league
+4094629,2023-09-24,347,667,László Bölöni,Patrick Vieira,Stade Saint-Symphorien,26661.0,Clément Turpin,Football Club de Metz,Racing Club de Strasbourg Alsace,domestic_league
+4094711,2023-12-10,347,3911,László Bölöni,Éric Roy,Stade Saint-Symphorien,20157.0,Romain Lissorgue,Football Club de Metz,Stade brestois 29,domestic_league
+4094715,2023-12-17,1158,667,Régis Le Bris,Patrick Vieira,Stade du Moustoir,14580.0,Bastien Dechepy,Football Club Lorient-Bretagne Sud,Racing Club de Strasbourg Alsace,domestic_league
+4094754,2024-02-04,1421,415,Will Still,Carles Martínez,Stade Auguste-Delaune,12817.0,Pierre Gaillouste,Stade de Reims,Toulouse Football Club,domestic_league
+4094640,2023-10-01,738,1082,Luka Elsner,Paulo Fonseca,Stade Océane,21919.0,Bastien Dechepy,Le Havre Athletic Club,Lille Olympique Sporting Club Lille Métropole,domestic_league
+4094703,2023-12-03,3911,3524,Éric Roy,Pascal Gastien,Stade Francis-Le Blé,14324.0,Marc Bollengier,Stade brestois 29,Clermont Foot 63,domestic_league
+4094727,2023-12-20,3524,273,Pascal Gastien,Julien Stéphan,Stade Gabriel-Montpied,8832.0,Eric Wattellier,Clermont Foot 63,Stade Rennais Football Club,domestic_league
+4094742,2024-01-27,244,162,Gennaro Gattuso,Adi Hütter,Orange Vélodrome,63029.0,Willy Delajod,Olympique de Marseille,Association sportive de Monaco Football Club,domestic_league
+4094762,2024-02-11,417,162,Francesco Farioli,Adi Hütter,Allianz Riviera,24788.0,Eric Wattellier,Olympique Gymnaste Club Nice Côte d'Azur,Association sportive de Monaco Football Club,domestic_league
+4094808,2024-03-16,826,417,Franck Haise,Francesco Farioli,Stade Bollaert-Delelis,37346.0,Benoît Bastien,Racing Club de Lens,Olympique Gymnaste Club Nice Côte d'Azur,domestic_league
+4094746,2024-01-28,3524,667,Pascal Gastien,Patrick Vieira,Stade Gabriel-Montpied,9047.0,Benoît Millot,Clermont Foot 63,Racing Club de Strasbourg Alsace,domestic_league
+4094651,2023-10-22,415,1421,Carles Martínez,Will Still,Stadium Municipal,23895.0,Jérémy Stinat,Toulouse Football Club,Stade de Reims,domestic_league
+4094737,2024-01-14,738,1041,Luka Elsner,Pierre Sage,Stade Océane,23146.0,Gaël Angoula,Le Havre Athletic Club,Olympique Lyonnais,domestic_league
+4094804,2024-03-15,415,1041,Carles Martínez,Pierre Sage,Stadium Municipal,28436.0,Jérémy Stinat,Toulouse Football Club,Olympique Lyonnais,domestic_league
+4094672,2023-11-04,1158,826,Régis Le Bris,Franck Haise,Stade du Moustoir,16599.0,Bastien Dechepy,Football Club Lorient-Bretagne Sud,Racing Club de Lens,domestic_league
+4094838,2024-04-12,347,826,László Bölöni,Franck Haise,Stade Saint-Symphorien,23002.0,Romain Lissorgue,Football Club de Metz,Racing Club de Lens,domestic_league
+4094604,2023-08-27,969,1421,Michel Der Zakarian,Will Still,Stade de la Mosson,14476.0,Marc Bollengier,Montpellier Hérault Sport Club,Stade de Reims,domestic_league
+4094620,2023-09-17,3524,995,Pascal Gastien,Pierre Aristouy,Stade Gabriel-Montpied,9775.0,Thomas Léonard,Clermont Foot 63,Football Club de Nantes,domestic_league
+4094662,2023-10-27,3524,417,Pascal Gastien,Francesco Farioli,Stade Gabriel-Montpied,10140.0,Jérémie Pignard,Clermont Foot 63,Olympique Gymnaste Club Nice Côte d'Azur,domestic_league
+4094668,2023-11-03,583,969,Luis Enrique,Michel Der Zakarian,Parc des Princes,47000.0,Ruddy Buquet,Paris Saint-Germain Football Club,Montpellier Hérault Sport Club,domestic_league
+4094679,2023-11-12,3524,1158,Pascal Gastien,Régis Le Bris,Stade Gabriel-Montpied,9798.0,Romain Lissorgue,Clermont Foot 63,Football Club Lorient-Bretagne Sud,domestic_league
+4094697,2023-12-03,162,969,Adi Hütter,Michel Der Zakarian,Stade Louis-II,4599.0,Jérémy Stinat,Association sportive de Monaco Football Club,Montpellier Hérault Sport Club,domestic_league
+4094827,2024-04-07,995,1041,Antoine Kombouaré,Pierre Sage,Stade de la Beaujoire,,Jérôme Brisard,Football Club de Nantes,Olympique Lyonnais,domestic_league
+4094839,2024-04-21,583,1041,Luis Enrique,Pierre Sage,Parc des Princes,47700.0,François Letexier,Paris Saint-Germain Football Club,Olympique Lyonnais,domestic_league
+4094844,2024-04-20,826,3524,Franck Haise,Pascal Gastien,Stade Bollaert-Delelis,37495.0,Benoît Bastien,Racing Club de Lens,Clermont Foot 63,domestic_league
+4094845,2024-04-20,995,273,Antoine Kombouaré,Julien Stéphan,Stade de la Beaujoire,25433.0,Willy Delajod,Football Club de Nantes,Stade Rennais Football Club,domestic_league
+4094740,2024-01-28,583,3911,Luis Enrique,Éric Roy,Parc des Princes,46905.0,Clément Turpin,Paris Saint-Germain Football Club,Stade brestois 29,domestic_league
+4094682,2023-11-11,738,162,Luka Elsner,Adi Hütter,Stade Océane,23008.0,Thomas Léonard,Le Havre Athletic Club,Association sportive de Monaco Football Club,domestic_league
+4094680,2023-11-11,1421,583,Will Still,Luis Enrique,Stade Auguste-Delaune,20500.0,Willy Delajod,Stade de Reims,Paris Saint-Germain Football Club,domestic_league
+4094712,2023-12-08,969,826,Michel Der Zakarian,Franck Haise,Stade de la Mosson,14159.0,Stéphanie Frappart,Montpellier Hérault Sport Club,Racing Club de Lens,domestic_league
+4094735,2024-01-14,826,583,Franck Haise,Luis Enrique,Stade Bollaert-Delelis,38200.0,Jérôme Brisard,Racing Club de Lens,Paris Saint-Germain Football Club,domestic_league
+4094768,2024-02-18,273,3524,Julien Stéphan,Pascal Gastien,Roazhon Park,27501.0,Romain Lissorgue,Stade Rennais Football Club,Clermont Foot 63,domestic_league
+4094779,2024-02-25,244,969,Jean-Louis Gasset,Michel Der Zakarian,Orange Vélodrome,61263.0,Jérémie Pignard,Olympique de Marseille,Montpellier Hérault Sport Club,domestic_league
+4094805,2024-03-17,162,1158,Adi Hütter,Régis Le Bris,Stade Louis-II,5090.0,Bastien Dechepy,Association sportive de Monaco Football Club,Football Club Lorient-Bretagne Sud,domestic_league
+4094583,2023-08-13,3524,162,Pascal Gastien,Adi Hütter,Stade Gabriel-Montpied,10453.0,François Letexier,Clermont Foot 63,Association sportive de Monaco Football Club,domestic_league
+4094686,2023-11-24,583,162,Luis Enrique,Adi Hütter,Parc des Princes,47896.0,Benoît Bastien,Paris Saint-Germain Football Club,Association sportive de Monaco Football Club,domestic_league
+4094756,2024-02-04,347,1158,László Bölöni,Régis Le Bris,Stade Saint-Symphorien,21044.0,Romain Lissorgue,Football Club de Metz,Football Club Lorient-Bretagne Sud,domestic_league
+4094796,2024-03-10,244,995,Jean-Louis Gasset,Jocelyn Gourvennec,Orange Vélodrome,56958.0,François Letexier,Olympique de Marseille,Football Club de Nantes,domestic_league
+4094719,2023-12-17,995,3911,Jocelyn Gourvennec,Éric Roy,Stade de la Beaujoire,30075.0,Benoît Millot,Football Club de Nantes,Stade brestois 29,domestic_league
+4094769,2024-02-18,162,415,Adi Hütter,Carles Martínez,Stade Louis-II,4702.0,Benoît Bastien,Association sportive de Monaco Football Club,Toulouse Football Club,domestic_league
+4094732,2024-01-12,244,667,Gennaro Gattuso,Patrick Vieira,Orange Vélodrome,53616.0,Marc Bollengier,Olympique de Marseille,Racing Club de Strasbourg Alsace,domestic_league
+4094579,2023-08-13,667,1041,Patrick Vieira,Laurent Blanc,Stade de la Meinau,25410.0,Jérôme Brisard,Racing Club de Strasbourg Alsace,Olympique Lyonnais,domestic_league
+4094702,2023-12-03,738,583,Luka Elsner,Luis Enrique,Stade Océane,24569.0,Bastien Dechepy,Le Havre Athletic Club,Paris Saint-Germain Football Club,domestic_league
+4094713,2023-12-17,415,273,Carles Martínez,Julien Stéphan,Stadium Municipal,23311.0,Jérémy Stinat,Toulouse Football Club,Stade Rennais Football Club,domestic_league
+4094778,2024-02-25,415,1082,Carles Martínez,Paulo Fonseca,Stadium Municipal,24110.0,Mathieu Vernice,Toulouse Football Club,Lille Olympique Sporting Club Lille Métropole,domestic_league
+4094695,2023-12-03,415,1158,Carles Martínez,Régis Le Bris,Stadium Municipal,22799.0,Thomas Léonard,Toulouse Football Club,Football Club Lorient-Bretagne Sud,domestic_league
+4094600,2023-08-27,1158,1082,Régis Le Bris,Paulo Fonseca,Stade du Moustoir,15101.0,Willy Delajod,Football Club Lorient-Bretagne Sud,Lille Olympique Sporting Club Lille Métropole,domestic_league
+4094601,2023-08-27,417,1041,Francesco Farioli,Laurent Blanc,Allianz Riviera,28033.0,Bastien Dechepy,Olympique Gymnaste Club Nice Côte d'Azur,Olympique Lyonnais,domestic_league
+4094608,2023-09-03,1041,583,Laurent Blanc,Luis Enrique,Groupama Stadium,51657.0,Eric Wattellier,Olympique Lyonnais,Paris Saint-Germain Football Club,domestic_league
+4094633,2023-10-01,273,995,Bruno Génésio,Pierre Aristouy,Roazhon Park,27316.0,Ruddy Buquet,Stade Rennais Football Club,Football Club de Nantes,domestic_league
+4094655,2023-10-22,1041,3524,Fabio Grosso,Pascal Gastien,Groupama Stadium,43999.0,Willy Delajod,Olympique Lyonnais,Clermont Foot 63,domestic_league
+4094661,2023-10-29,1082,162,Paulo Fonseca,Adi Hütter,Decathlon Arena-Stade Pierre-Mauroy,40046.0,Clément Turpin,Lille Olympique Sporting Club Lille Métropole,Association sportive de Monaco Football Club,domestic_league
+4094683,2023-11-12,347,995,László Bölöni,Pierre Aristouy,Stade Saint-Symphorien,21674.0,Florent Batta,Football Club de Metz,Football Club de Nantes,domestic_league
+4094710,2023-12-10,3524,1082,Pascal Gastien,Paulo Fonseca,Stade Gabriel-Montpied,8789.0,Florent Batta,Clermont Foot 63,Lille Olympique Sporting Club Lille Métropole,domestic_league
+4094785,2024-03-03,273,1158,Julien Stéphan,Régis Le Bris,Roazhon Park,28615.0,Benoît Bastien,Stade Rennais Football Club,Football Club Lorient-Bretagne Sud,domestic_league
+4094592,2023-08-20,1421,3524,Will Still,Pascal Gastien,Stade Auguste-Delaune,12887.0,Romain Lissorgue,Stade de Reims,Clermont Foot 63,domestic_league
+4094828,2024-04-07,969,1158,Michel Der Zakarian,Régis Le Bris,Stade de la Mosson,15234.0,Romain Lissorgue,Montpellier Hérault Sport Club,Football Club Lorient-Bretagne Sud,domestic_league
+4094833,2024-04-24,1158,583,Régis Le Bris,Luis Enrique,Stade du Moustoir,16738.0,Marc Bollengier,Football Club Lorient-Bretagne Sud,Paris Saint-Germain Football Club,domestic_league
+4094843,2024-04-21,1421,969,Will Still,Michel Der Zakarian,Stade Auguste-Delaune,14183.0,Pierre Gaillouste,Stade de Reims,Montpellier Hérault Sport Club,domestic_league
+4094617,2023-09-17,244,415,Marcelino,Carles Martínez,Orange Vélodrome,63477.0,François Letexier,Olympique de Marseille,Toulouse Football Club,domestic_league
+4094621,2023-09-17,1421,3911,Will Still,Éric Roy,Stade Auguste-Delaune,12948.0,Gaël Angoula,Stade de Reims,Stade brestois 29,domestic_league
+4094728,2023-12-20,1421,738,Will Still,Luka Elsner,Stade Auguste-Delaune,14835.0,Stéphanie Frappart,Stade de Reims,Le Havre Athletic Club,domestic_league
+4094835,2024-04-14,1041,3911,Pierre Sage,Éric Roy,Groupama Stadium,47958.0,Mathieu Vernice,Olympique Lyonnais,Stade brestois 29,domestic_league
+4094658,2023-10-20,738,826,Luka Elsner,Franck Haise,Stade Océane,23590.0,François Letexier,Le Havre Athletic Club,Racing Club de Lens,domestic_league
+4094720,2023-12-16,738,417,Luka Elsner,Francesco Farioli,Stade Océane,21971.0,Jérémie Pignard,Le Havre Athletic Club,Olympique Gymnaste Club Nice Côte d'Azur,domestic_league
+4094730,2023-12-20,3911,1158,Éric Roy,Régis Le Bris,Stade Francis-Le Blé,14544.0,Mickaël Leleu,Stade brestois 29,Football Club Lorient-Bretagne Sud,domestic_league
+4094757,2024-02-04,3911,417,Éric Roy,Francesco Farioli,Stade Francis-Le Blé,13442.0,Jérémy Stinat,Stade brestois 29,Olympique Gymnaste Club Nice Côte d'Azur,domestic_league
+4094795,2024-03-10,667,162,Patrick Vieira,Adi Hütter,Stade de la Meinau,25391.0,Clément Turpin,Racing Club de Strasbourg Alsace,Association sportive de Monaco Football Club,domestic_league
+4094846,2024-04-21,738,347,Luka Elsner,László Bölöni,Stade Océane,21250.0,Marc Bollengier,Le Havre Athletic Club,Football Club de Metz,domestic_league
+4094606,2023-09-02,162,826,Adi Hütter,Franck Haise,Stade Louis-II,9402.0,Willy Delajod,Association sportive de Monaco Football Club,Racing Club de Lens,domestic_league
+4094607,2023-09-03,1082,969,Paulo Fonseca,Michel Der Zakarian,Decathlon Arena-Stade Pierre-Mauroy,35298.0,Benoît Millot,Lille Olympique Sporting Club Lille Métropole,Montpellier Hérault Sport Club,domestic_league
+4094639,2023-10-01,1421,1041,Will Still,Fabio Grosso,Stade Auguste-Delaune,16477.0,François Letexier,Stade de Reims,Olympique Lyonnais,domestic_league
+4094725,2023-12-20,1041,995,Pierre Sage,Jocelyn Gourvennec,Groupama Stadium,40028.0,Benoît Bastien,Olympique Lyonnais,Football Club de Nantes,domestic_league
+4094788,2024-03-03,1041,826,Pierre Sage,Franck Haise,Groupama Stadium,48242.0,Jérôme Brisard,Olympique Lyonnais,Racing Club de Lens,domestic_league
+4094824,2024-04-05,1082,244,Paulo Fonseca,Jean-Louis Gasset,Decathlon Arena-Stade Pierre-Mauroy,46864.0,Bastien Dechepy,Lille Olympique Sporting Club Lille Métropole,Olympique de Marseille,domestic_league
+4094834,2024-04-24,162,1082,Adi Hütter,Paulo Fonseca,Stade Louis-II,7069.0,Clément Turpin,Association sportive de Monaco Football Club,Lille Olympique Sporting Club Lille Métropole,domestic_league
+4094809,2024-03-16,995,667,Jocelyn Gourvennec,Patrick Vieira,Stade de la Beaujoire,29487.0,Jérémie Pignard,Football Club de Nantes,Racing Club de Strasbourg Alsace,domestic_league
+4094831,2024-04-13,273,415,Julien Stéphan,Carles Martínez,Roazhon Park,28055.0,Florent Batta,Stade Rennais Football Club,Toulouse Football Club,domestic_league
+4094841,2024-04-21,1082,667,Paulo Fonseca,Patrick Vieira,Decathlon Arena-Stade Pierre-Mauroy,40381.0,Benoît Millot,Lille Olympique Sporting Club Lille Métropole,Racing Club de Strasbourg Alsace,domestic_league
+4094800,2024-03-09,826,3911,Franck Haise,Éric Roy,Stade Bollaert-Delelis,38016.0,Stéphanie Frappart,Racing Club de Lens,Stade brestois 29,domestic_league
+4094631,2023-09-23,3911,1041,Éric Roy,Fabio Grosso,Stade Francis-Le Blé,14636.0,Thomas Léonard,Stade brestois 29,Olympique Lyonnais,domestic_league
+4094667,2023-10-29,3911,583,Éric Roy,Luis Enrique,Stade Francis-Le Blé,15183.0,Jérôme Brisard,Stade brestois 29,Paris Saint-Germain Football Club,domestic_league
+4094783,2024-02-25,738,1421,Luka Elsner,Will Still,Stade Océane,22046.0,Florent Batta,Le Havre Athletic Club,Stade de Reims,domestic_league
+4094582,2023-08-11,417,1082,Francesco Farioli,Paulo Fonseca,Allianz Riviera,29436.0,Benoît Bastien,Olympique Gymnaste Club Nice Côte d'Azur,Lille Olympique Sporting Club Lille Métropole,domestic_league
+4094602,2023-08-27,3524,347,Pascal Gastien,László Bölöni,Stade Gabriel-Montpied,9146.0,Gaël Angoula,Clermont Foot 63,Football Club de Metz,domestic_league
+4094603,2023-08-25,995,162,Pierre Aristouy,Adi Hütter,Stade de la Beaujoire,28429.0,Jérémie Pignard,Football Club de Nantes,Association sportive de Monaco Football Club,domestic_league
+4094618,2023-09-17,1158,162,Régis Le Bris,Adi Hütter,Stade du Moustoir,15247.0,Marc Bollengier,Football Club Lorient-Bretagne Sud,Association sportive de Monaco Football Club,domestic_league
+4094625,2023-09-26,1082,1421,Paulo Fonseca,Will Still,Decathlon Arena-Stade Pierre-Mauroy,33075.0,Eric Wattellier,Lille Olympique Sporting Club Lille Métropole,Stade de Reims,domestic_league
+4094653,2023-10-22,162,347,Adi Hütter,László Bölöni,Stade Louis-II,6197.0,Romain Lissorgue,Association sportive de Monaco Football Club,Football Club de Metz,domestic_league
+4094681,2023-11-12,826,244,Franck Haise,Gennaro Gattuso,Stade Bollaert-Delelis,38223.0,Benoît Bastien,Racing Club de Lens,Olympique de Marseille,domestic_league
+4094684,2023-11-10,969,417,Michel Der Zakarian,Francesco Farioli,Stade de la Mosson,13452.0,Hakim Ben El Hadj,Montpellier Hérault Sport Club,Olympique Gymnaste Club Nice Côte d'Azur,domestic_league
+4094698,2023-12-03,1082,347,Paulo Fonseca,László Bölöni,Decathlon Arena-Stade Pierre-Mauroy,38065.0,Gaël Angoula,Lille Olympique Sporting Club Lille Métropole,Football Club de Metz,domestic_league
+4094707,2023-12-10,1158,244,Régis Le Bris,Gennaro Gattuso,Stade du Moustoir,15848.0,Eric Wattellier,Football Club Lorient-Bretagne Sud,Olympique de Marseille,domestic_league
+4094709,2023-12-10,417,1421,Francesco Farioli,Will Still,Allianz Riviera,24325.0,Benoît Bastien,Olympique Gymnaste Club Nice Côte d'Azur,Stade de Reims,domestic_league
+4094729,2023-12-20,969,244,Michel Der Zakarian,Gennaro Gattuso,Stade de la Mosson,18565.0,Thomas Léonard,Montpellier Hérault Sport Club,Olympique de Marseille,domestic_league
+4094753,2024-02-04,1041,244,Pierre Sage,Gennaro Gattuso,Groupama Stadium,46380.0,Benoît Bastien,Olympique Lyonnais,Olympique de Marseille,domestic_league
+4094802,2024-03-10,347,3524,László Bölöni,Pascal Gastien,Stade Saint-Symphorien,22673.0,Gaël Angoula,Football Club de Metz,Clermont Foot 63,domestic_league
+4094598,2023-08-27,273,738,Bruno Génésio,Luka Elsner,Roazhon Park,28311.0,Eric Wattellier,Stade Rennais Football Club,Le Havre Athletic Club,domestic_league
+4094584,2023-08-13,995,415,Pierre Aristouy,Carles Martínez,Stade de la Beaujoire,30578.0,Willy Delajod,Football Club de Nantes,Toulouse Football Club,domestic_league
+4094691,2023-11-26,417,415,Francesco Farioli,Carles Martínez,Allianz Riviera,21849.0,François Letexier,Olympique Gymnaste Club Nice Côte d'Azur,Toulouse Football Club,domestic_league
+4094699,2023-12-01,1421,667,Will Still,Patrick Vieira,Stade Auguste-Delaune,13704.0,Hakim Ben El Hadj,Stade de Reims,Racing Club de Strasbourg Alsace,domestic_league
+4094751,2024-02-04,162,738,Adi Hütter,Luka Elsner,Stade Louis-II,5962.0,Jérôme Brisard,Association sportive de Monaco Football Club,Le Havre Athletic Club,domestic_league
+4094764,2024-02-10,826,667,Franck Haise,Patrick Vieira,Stade Bollaert-Delelis,38161.0,Willy Delajod,Racing Club de Lens,Racing Club de Strasbourg Alsace,domestic_league
+4094615,2023-09-17,667,969,Patrick Vieira,Michel Der Zakarian,Stade de la Meinau,25128.0,Pierre Gaillouste,Racing Club de Strasbourg Alsace,Montpellier Hérault Sport Club,domestic_league
+4094634,2023-10-01,415,347,Carles Martínez,László Bölöni,Stadium Municipal,24770.0,Gaël Angoula,Toulouse Football Club,Football Club de Metz,domestic_league
+4094793,2024-03-03,3911,738,Éric Roy,Luka Elsner,Stade Francis-Le Blé,14718.0,Pierre Gaillouste,Stade brestois 29,Le Havre Athletic Club,domestic_league
+4094705,2023-12-10,667,738,Patrick Vieira,Luka Elsner,Stade de la Meinau,25173.0,Benoît Millot,Racing Club de Strasbourg Alsace,Le Havre Athletic Club,domestic_league
+4094822,2024-04-07,415,667,Carles Martínez,Patrick Vieira,Stadium Municipal,23672.0,Ruddy Buquet,Toulouse Football Club,Racing Club de Strasbourg Alsace,domestic_league
+4094597,2023-08-27,667,415,Patrick Vieira,Carles Martínez,Stade de la Meinau,25090.0,Benoît Bastien,Racing Club de Strasbourg Alsace,Toulouse Football Club,domestic_league
+4094649,2023-10-08,3911,415,Éric Roy,Carles Martínez,Stade Francis-Le Blé,14509.0,Pierre Gaillouste,Stade brestois 29,Toulouse Football Club,domestic_league
+4094610,2023-09-01,995,244,Pierre Aristouy,Marcelino,Stade de la Beaujoire,34600.0,Ruddy Buquet,Football Club de Nantes,Olympique de Marseille,domestic_league
+4094624,2023-09-22,162,417,Adi Hütter,Francesco Farioli,Stade Louis-II,10075.0,Benoît Millot,Association sportive de Monaco Football Club,Olympique Gymnaste Club Nice Côte d'Azur,domestic_league
+4094638,2023-09-30,3524,583,Pascal Gastien,Luis Enrique,Stade Gabriel-Montpied,10586.0,Marc Bollengier,Clermont Foot 63,Paris Saint-Germain Football Club,domestic_league
+4094644,2023-10-08,1041,1158,Fabio Grosso,Régis Le Bris,Groupama Stadium,43100.0,Clément Turpin,Olympique Lyonnais,Football Club Lorient-Bretagne Sud,domestic_league
+4094646,2023-10-08,826,1082,Franck Haise,Paulo Fonseca,Stade Bollaert-Delelis,37223.0,Benoît Millot,Racing Club de Lens,Lille Olympique Sporting Club Lille Métropole,domestic_league
+4094652,2023-10-22,1158,273,Régis Le Bris,Bruno Génésio,Stade du Moustoir,16711.0,Gaël Angoula,Football Club Lorient-Bretagne Sud,Stade Rennais Football Club,domestic_league
+4094664,2023-10-28,826,995,Franck Haise,Pierre Aristouy,Stade Bollaert-Delelis,38223.0,Pierre Gaillouste,Racing Club de Lens,Football Club de Nantes,domestic_league
+4094761,2024-02-11,1158,1421,Régis Le Bris,Will Still,Stade du Moustoir,15096.0,Marc Bollengier,Football Club Lorient-Bretagne Sud,Stade de Reims,domestic_league
+4094781,2024-02-25,417,3524,Francesco Farioli,Pascal Gastien,Allianz Riviera,22081.0,Hakim Ben El Hadj,Olympique Gymnaste Club Nice Côte d'Azur,Clermont Foot 63,domestic_league
+4094784,2024-02-23,347,1041,László Bölöni,Pierre Sage,Stade Saint-Symphorien,27560.0,Marc Bollengier,Football Club de Metz,Olympique Lyonnais,domestic_league
+4094790,2024-03-02,1421,1082,Will Still,Paulo Fonseca,Stade Auguste-Delaune,16452.0,Jérémy Stinat,Stade de Reims,Lille Olympique Sporting Club Lille Métropole,domestic_league
+4094807,2024-03-17,1421,347,Will Still,László Bölöni,Stade Auguste-Delaune,14335.0,Hakim Ben El Hadj,Stade de Reims,Football Club de Metz,domestic_league
+4094832,2024-04-24,244,417,Jean-Louis Gasset,Francesco Farioli,Orange Vélodrome,58151.0,Jérémie Pignard,Olympique de Marseille,Olympique Gymnaste Club Nice Côte d'Azur,domestic_league
+4094820,2024-03-30,347,162,László Bölöni,Adi Hütter,Stade Saint-Symphorien,26661.0,Eric Wattellier,Football Club de Metz,Association sportive de Monaco Football Club,domestic_league
+4094626,2023-09-24,826,415,Franck Haise,Carles Martínez,Stade Bollaert-Delelis,37506.0,Hakim Ben El Hadj,Racing Club de Lens,Toulouse Football Club,domestic_league
+4094643,2023-10-08,244,738,Gennaro Gattuso,Luka Elsner,Orange Vélodrome,63576.0,Thomas Léonard,Olympique de Marseille,Le Havre Athletic Club,domestic_league
+4094659,2023-10-29,273,667,Bruno Génésio,Patrick Vieira,Roazhon Park,28100.0,Florent Batta,Stade Rennais Football Club,Racing Club de Strasbourg Alsace,domestic_league
+4094665,2023-10-29,347,738,László Bölöni,Luka Elsner,Stade Saint-Symphorien,20718.0,Hakim Ben El Hadj,Football Club de Metz,Le Havre Athletic Club,domestic_league
+4094678,2023-11-12,1082,415,Paulo Fonseca,Carles Martínez,Decathlon Arena-Stade Pierre-Mauroy,34959.0,Mathieu Vernice,Lille Olympique Sporting Club Lille Métropole,Toulouse Football Club,domestic_league
+4094694,2023-11-26,969,3911,Michel Der Zakarian,Éric Roy,Stade de la Mosson,12311.0,Pierre Gaillouste,Montpellier Hérault Sport Club,Stade brestois 29,domestic_league
+4094741,2024-01-28,415,826,Carles Martínez,Franck Haise,Stadium Municipal,27310.0,Mathieu Vernice,Toulouse Football Club,Racing Club de Lens,domestic_league
+4094581,2023-08-12,244,1421,Marcelino,Will Still,Orange Vélodrome,63787.0,Eric Wattellier,Olympique de Marseille,Stade de Reims,domestic_league
+4094591,2023-08-19,1041,969,Laurent Blanc,Michel Der Zakarian,Groupama Stadium,42576.0,Mathieu Vernice,Olympique Lyonnais,Montpellier Hérault Sport Club,domestic_league
+4094627,2023-09-23,995,1158,Pierre Aristouy,Régis Le Bris,Stade de la Beaujoire,30704.0,Florent Batta,Football Club de Nantes,Football Club Lorient-Bretagne Sud,domestic_league
+4094660,2023-12-06,244,1041,Gennaro Gattuso,Pierre Sage,Orange Vélodrome,,François Letexier,Olympique de Marseille,Olympique Lyonnais,domestic_league
+4094825,2024-04-07,1421,417,Will Still,Francesco Farioli,Stade Auguste-Delaune,14606.0,Eric Wattellier,Stade de Reims,Olympique Gymnaste Club Nice Côte d'Azur,domestic_league
+4094690,2023-11-26,1041,1082,Fabio Grosso,Paulo Fonseca,Groupama Stadium,40029.0,Eric Wattellier,Olympique Lyonnais,Lille Olympique Sporting Club Lille Métropole,domestic_league
+4094656,2023-10-21,417,244,Francesco Farioli,Gennaro Gattuso,Allianz Riviera,31423.0,Ruddy Buquet,Olympique Gymnaste Club Nice Côte d'Azur,Olympique de Marseille,domestic_league
+4094688,2023-11-26,273,1421,Julien Stéphan,Will Still,Roazhon Park,27718.0,Ruddy Buquet,Stade Rennais Football Club,Stade de Reims,domestic_league
+4094593,2023-08-20,826,273,Franck Haise,Bruno Génésio,Stade Bollaert-Delelis,37223.0,Benoît Millot,Racing Club de Lens,Stade Rennais Football Club,domestic_league
+4094595,2023-08-18,347,244,László Bölöni,Marcelino,Stade Saint-Symphorien,26661.0,Jérôme Brisard,Football Club de Metz,Olympique de Marseille,domestic_league
+4094636,2023-09-30,162,244,Adi Hütter,Gennaro Gattuso,Stade Louis-II,9912.0,Benoît Bastien,Association sportive de Monaco Football Club,Olympique de Marseille,domestic_league
+4094721,2023-12-17,347,969,László Bölöni,Michel Der Zakarian,Stade Saint-Symphorien,23473.0,Marc Bollengier,Football Club de Metz,Montpellier Hérault Sport Club,domestic_league
+4094736,2024-01-14,995,3524,Jocelyn Gourvennec,Pascal Gastien,Stade de la Beaujoire,20866.0,Romain Lissorgue,Football Club de Nantes,Clermont Foot 63,domestic_league
+4094780,2024-02-24,1158,995,Régis Le Bris,Jocelyn Gourvennec,Stade du Moustoir,16783.0,Willy Delajod,Football Club Lorient-Bretagne Sud,Football Club de Nantes,domestic_league
+4094789,2024-03-02,3524,244,Pascal Gastien,Jean-Louis Gasset,Stade Gabriel-Montpied,,Thomas Léonard,Clermont Foot 63,Olympique de Marseille,domestic_league
+4094588,2023-08-20,1158,417,Régis Le Bris,Francesco Farioli,Stade du Moustoir,15848.0,Hakim Ben El Hadj,Football Club Lorient-Bretagne Sud,Olympique Gymnaste Club Nice Côte d'Azur,domestic_league
+4094657,2023-10-22,995,969,Pierre Aristouy,Michel Der Zakarian,Stade de la Beaujoire,26864.0,Marc Bollengier,Football Club de Nantes,Montpellier Hérault Sport Club,domestic_league
+4094794,2024-03-10,583,1421,Luis Enrique,Will Still,Parc des Princes,47917.0,Willy Delajod,Paris Saint-Germain Football Club,Stade de Reims,domestic_league
+4094748,2024-01-28,969,1082,Michel Der Zakarian,Paulo Fonseca,Stade de la Mosson,12575.0,Hakim Ben El Hadj,Montpellier Hérault Sport Club,Lille Olympique Sporting Club Lille Métropole,domestic_league
+4094743,2024-01-28,1158,738,Régis Le Bris,Luka Elsner,Stade du Moustoir,15207.0,Jérémy Stinat,Football Club Lorient-Bretagne Sud,Le Havre Athletic Club,domestic_league
+4094806,2024-03-17,3524,738,Pascal Gastien,Luka Elsner,Stade Gabriel-Montpied,9638.0,Marc Bollengier,Clermont Foot 63,Le Havre Athletic Club,domestic_league
+4094589,2023-08-20,162,667,Adi Hütter,Patrick Vieira,Stade Louis-II,10100.0,Ruddy Buquet,Association sportive de Monaco Football Club,Racing Club de Strasbourg Alsace,domestic_league
+4094765,2024-02-11,738,273,Luka Elsner,Julien Stéphan,Stade Océane,22702.0,Benoît Millot,Le Havre Athletic Club,Stade Rennais Football Club,domestic_league
+4094847,2024-04-21,3911,162,Éric Roy,Adi Hütter,Stade Francis-Le Blé,14856.0,Ruddy Buquet,Stade brestois 29,Association sportive de Monaco Football Club,domestic_league
+4094775,2024-02-18,3911,244,Éric Roy,Gennaro Gattuso,Stade Francis-Le Blé,14766.0,Ruddy Buquet,Stade brestois 29,Olympique de Marseille,domestic_league
+4094819,2024-03-31,738,969,Luka Elsner,Michel Der Zakarian,Stade Océane,20556.0,Mathieu Vernice,Le Havre Athletic Club,Montpellier Hérault Sport Club,domestic_league
+4094840,2024-04-21,415,244,Carles Martínez,Jean-Louis Gasset,Stadium Municipal,29809.0,Clément Turpin,Toulouse Football Club,Olympique de Marseille,domestic_league
+4094776,2024-02-25,583,273,Luis Enrique,Julien Stéphan,Parc des Princes,47874.0,Bastien Dechepy,Paris Saint-Germain Football Club,Stade Rennais Football Club,domestic_league
+4094786,2024-03-03,415,417,Carles Martínez,Francesco Farioli,Stadium Municipal,25507.0,Jérémie Pignard,Toulouse Football Club,Olympique Gymnaste Club Nice Côte d'Azur,domestic_league
+4094777,2024-02-24,667,3911,Patrick Vieira,Éric Roy,Stade de la Meinau,25140.0,Jérôme Brisard,Racing Club de Strasbourg Alsace,Stade brestois 29,domestic_league

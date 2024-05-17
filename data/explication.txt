@@ -1,0 +1,24 @@
+Le but de ce projet est de prédire les victoires à la ligue 1 sur la saison en cours (2023-2024)
+
+Vous avez accès à des données historiques (remontant jusqu’à 2013 pour les matchs) et un ensemble de statistiques sur les joueurs, leurs valeurs, un ensemble d’actions pendant les matchs etc...
+Les matchs à prédire se trouve dans matchs_2023.csv, vous n’avez pas la configuration de l’équipe, car celle-ci n’est pas disponible longtemps à l’avance.
+
+Votre but est donc pour chaque équipe de constituer un classifieur qui prédit :
+1 (victoire de l’équipe à domicile)
+0 (nul)
+-1 (victoire de l’équipe en extérieur)
+
+C’est à vous de choisir les données à prendre en entrée et à constituer un ensemble d’informations qui soit pertinent pour prédire le résultat du match.
+Vous ne pouvez pas espérer des scores extraordinaires car c’est un problème compliqué, mais vous devriez être meilleur qu’un modèle aléatoire !
+
+Les csv disponibles sont :
+- match_2013_2022.csv : La liste de tous les matchs avant 2023, avec le résultat associé
+- match_2023.csv : La liste des matchs à prédire, vous n’avez pas le résultat, il sera dévoilé après la fin du projet.
+- sample_results.csv : un exemple de fichier de prédiction que j’attends pour tester votre modèle. À chaque id de match est associé un résultat (-1 0 ou 1)
+
+- clubs_fr.csv : Une liste des clubs français avec quelques stats sur la constitution (récente) de l’équipe
+- player_valuation_before_season.csv : Pour chaque joueur, sa valeur sur le marché, à une certaine date, à vous de transformer et d’utiliser cette information à bonne escient.
+- player_appearance.csv : Un ensemble d’info simple sur chaque joueur pendant chaque match (nombre de buts, nombre de cartons)
+- game_lineups.csv : La constitution des équipes pour chaque match, vous n’avez pas la constitution pour les matchs récents.
+- game_events.csv :  Un ensemble d’actions pour chaque joueur pendant chaque match, peut compléter les informations sur un joueur, vous allez sûrement devoir aggreger des informations ce jeu (par exemple comptez le nombre de passe décisive, d’arrêt etc...)
+
