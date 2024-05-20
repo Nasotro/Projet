@@ -1,5 +1,4 @@
 def add_manager_win_percentage(df):
-
     manager_home_win_percentage = {}
 
     for home_club_manager_name in df['home_club_manager_name'].unique():
