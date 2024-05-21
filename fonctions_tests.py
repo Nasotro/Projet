@@ -89,14 +89,17 @@ def add_price_players(data:pd.DataFrame):
     if(dataTeams is None):
         dataTeams = pd.read_csv("data\clubs_fr.csv", sep=",")
     dataTeams["transfer_num"] = dataTeams["net_transfer_record"].apply(convert_string_to_thousands)
-    data = data.merge(dataTeams[['club_id', 'transfer_num']],
+    
+    dataTemp = data.merge(dataTeams[['club_id', 'transfer_num']],
                                     left_on='home_club_id',
                                     right_on='club_id',
-                                    how='left').rename(columns={'transfer_num': 'transfer_home_team'})
-    data = data.merge(dataTeams[['club_id', 'transfer_num']],
+                                    how='left')#.rename(columns={'transfer_num': 'transfer_home_team'})
+    data["transfer_home_team"] = dataTemp["transfer_num"]
+    dataTemp = data.merge(dataTeams[['club_id', 'transfer_num']],
                                     left_on='away_club_id',
                                     right_on='club_id',
-                                    how='left').rename(columns={'transfer_num': 'transfer_away_team'})
+                                    how='left')#.rename(columns={'transfer_num': 'transfer_away_team'})
+    data["transfer_away_team"] = dataTemp["transfer_num"]
 
  
 def create_model(X_train, y_train):
