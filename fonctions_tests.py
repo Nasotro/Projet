@@ -71,6 +71,33 @@ def add_club_scores(X:pd.DataFrame):
     X["score_away_team"] = X["away_club_id"].apply(get_score_team)
     X["score_home_team"] = X["home_club_id"].apply(get_score_team)
 
+def convert_string_to_thousands(s):
+    # Remove the ? sign
+    # get the sign of the value
+    sign = 1 if s[0] != '-' else -1
+    s = s.replace('-', '').replace('+', '')
+    s = s[1:] if s[0] not in "1234567890" else s
+    # print("process :", s)
+    value = float(s[:-1] if len(s) > 1 else 0)
+    multiplier = {'k': 1, 'm': 1000}.get(s[-1:], 1)
+    # Return the numeric value multiplied by the multiplier
+    return value * multiplier * sign
+
+dataTeams = None
+def add_price_players(data:pd.DataFrame):
+    global dataTeams
+    if(dataTeams is None):
+        dataTeams = pd.read_csv("data\clubs_fr.csv", sep=",")
+    dataTeams["transfer_num"] = dataTeams["net_transfer_record"].apply(convert_string_to_thousands)
+    data = data.merge(dataTeams[['club_id', 'transfer_num']],
+                                    left_on='home_club_id',
+                                    right_on='club_id',
+                                    how='left').rename(columns={'transfer_num': 'transfer_home_team'})
+    data = data.merge(dataTeams[['club_id', 'transfer_num']],
+                                    left_on='away_club_id',
+                                    right_on='club_id',
+                                    how='left').rename(columns={'transfer_num': 'transfer_away_team'})
+
  
 def create_model(X_train, y_train):
     model = RandomForestClassifier()
