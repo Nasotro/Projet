@@ -1,4 +1,7 @@
-def add_manager_win_percentage(df):
+import pandas as pd
+import numpy as np
+
+def add_manager_win_percentage(df:pd.DataFrame):
     manager_home_win_percentage = {}
 
     for home_club_manager_name in df['home_club_manager_name'].unique():
@@ -19,6 +22,23 @@ def add_manager_win_percentage(df):
         
     df['home_club_manager_win_percentage'] = df['home_club_manager_name'].map(manager_home_win_percentage)
     df['away_club_manager_win_percentage'] = df['away_club_manager_name'].map(manager_away_win_percentage)
+
+def add_club_win_percentage_with_referee(df:pd.DataFrame):
+    win_percentage_with_referee = {}
+
+    for referee in df['referee'].unique():
+        for home_club_name in pd.concat([df['home_club_name'],(df['away_club_name'])]).unique():
+            matches_won_with_referee = df[(df['home_club_name'] == home_club_name) & (df['referee'] == referee)]['results'].value_counts().get(1, 0)
+            total_matches_with_referee = df[(df['home_club_name'] == home_club_name) & (df['referee'] == referee)].shape[0]
+
+            matches_won_with_referee += df[(df['away_club_name'] == home_club_name) & (df['referee'] == referee)]['results'].value_counts().get(-1, 0)
+            total_matches_with_referee += df[(df['away_club_name'] == home_club_name) & (df['referee'] == referee)].shape[0]
+
+            ratio = matches_won_with_referee / total_matches_with_referee if total_matches_with_referee != 0 else np.nan
+            win_percentage_with_referee[(home_club_name, referee)] = ratio
+    
+    df['home_club_win_percentage_with_referee'] = df.apply(lambda row: win_percentage_with_referee.get((row['home_club_name'], row['referee']), np.nan), axis=1)
+    df['away_club_win_percentage_with_referee'] = df.apply(lambda row: win_percentage_with_referee.get((row['away_club_name'], row['referee']), np.nan), axis=1)
 
 from sklearn.model_selection import train_test_split
 from sklearn.preprocessing import StandardScaler
