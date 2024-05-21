@@ -1,6 +1,13 @@
 import pandas as pd
 import numpy as np
 
+from sklearn.model_selection import train_test_split
+from sklearn.preprocessing import StandardScaler
+from sklearn.ensemble import RandomForestClassifier
+from sklearn.metrics import accuracy_score
+from sklearn.pipeline import Pipeline
+from sklearn.impute import SimpleImputer
+
 def add_manager_win_percentage(df:pd.DataFrame):
     manager_home_win_percentage = {}
 
@@ -40,13 +47,31 @@ def add_club_win_percentage_with_referee(df:pd.DataFrame):
     df['home_club_win_percentage_with_referee'] = df.apply(lambda row: win_percentage_with_referee.get((row['home_club_name'], row['referee']), np.nan), axis=1)
     df['away_club_win_percentage_with_referee'] = df.apply(lambda row: win_percentage_with_referee.get((row['away_club_name'], row['referee']), np.nan), axis=1)
 
-from sklearn.model_selection import train_test_split
-from sklearn.preprocessing import StandardScaler
-from sklearn.ensemble import RandomForestClassifier
-from sklearn.metrics import accuracy_score
-from sklearn.pipeline import Pipeline
-from sklearn.impute import SimpleImputer
+playerValuation = None
+playerAppearances = None
+def concatLits(liste):
+    return list(set([item for sublist in liste for item in sublist]))
+def get_score_player(id):
+    global playerValuation
+    playerValuation = pd.read_csv("data\player_valuation_before_season.csv", sep=",") if playerValuation is None else playerValuation
+    player = playerValuation[playerValuation["player_id"] == id]["market_value_in_eur"].apply(lambda x: x/1e6)
+    return player.mean() if len(player) > 0 else 0
+teamComps = None
+def get_score_team(team):
+    global teamComps
+    if(teamComps is None):
+        lineups = pd.read_csv("data\game_lineups.csv", sep=",")
+        teamComps = lineups.groupby(['club_id'])['player_id'].apply(list).reset_index()
+        # print(teamComps)
+        teamComps = teamComps.groupby(['club_id'])['player_id'].apply(list).apply(concatLits).reset_index()
+        teamComps["score"] = teamComps["player_id"].apply(lambda x: sum([get_score_player(i) for i in x]))
+        
+    return teamComps[teamComps["club_id"] == team]["score"].values[0]
+def add_club_scores(X:pd.DataFrame):
+    X["score_away_team"] = X["away_club_id"].apply(get_score_team)
+    X["score_home_team"] = X["home_club_id"].apply(get_score_team)
 
+ 
 def create_model(X_train, y_train):
     model = RandomForestClassifier()
     
@@ -80,3 +105,4 @@ def test_data(X, y, model=None, test_size=0.2):
     if model is None:
         model = create_model(X_train, y_train)
     return get_accuracy_with_model(model, X_train, X_test, y_train, y_test)
+
