@@ -63,7 +63,7 @@ def create_model(X_train, y_train):
         ('model', model)
     ])
     
-    pipeline.fit(X_train, y_train)
+    pipeline.fit(X_train, y_train.values.ravel())
     return model    
 
 def get_accuracy_with_model(model, X_train, X_test, y_train, y_test):
@@ -71,7 +71,7 @@ def get_accuracy_with_model(model, X_train, X_test, y_train, y_test):
     X_train = scaler.fit_transform(X_train)
     X_test = scaler.transform(X_test)
     
-    model.fit(X_train, y_train)
+    model.fit(X_train, y_train.values.ravel())
     y_pred = model.predict(X_test)
     return accuracy_score(y_test, y_pred)
 
