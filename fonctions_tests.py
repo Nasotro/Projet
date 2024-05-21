@@ -101,7 +101,42 @@ def add_price_players(data:pd.DataFrame):
                                     how='left')#.rename(columns={'transfer_num': 'transfer_away_team'})
     data["transfer_away_team"] = dataTemp["transfer_num"]
 
+playerAppearances = None
+def get_stats_all_players():
+    global playerAppearances
+    if(playerAppearances is None):
+        playerAppearances = pd.read_csv("data\player_appearance.csv", sep=",")
+    
+    player_stats = playerAppearances.groupby('player_id').agg({
+        'goals': ['mean', 'sum'],
+        'assists': ['mean', 'sum'],
+        'minutes_played': 'mean',
+        'yellow_cards': ['mean', 'sum'],
+        'red_cards': ['mean', 'sum'],
+        'appearance_id': 'count'
+    }).rename(columns={
+        'goals': 'avg_goals_per_game total_goals',
+        'assists': 'avg_assists_per_game total_assists',
+        'minutes_played': 'avg_minutes_played_per_game',
+        'yellow_cards': 'avg_yellow_cards_per_game total_yellow_cards',
+        'red_cards': 'avg_red_cards_per_game total_red_cards',
+        'appearance_id': 'total_games'
+    })
+    
+    player_stats.columns = [col[0] for col in player_stats.columns.to_flat_index()]
+    
+    column_parts = [col.split() for col in player_stats.columns]
+    new_column_names = []
+    for i, parts in enumerate(column_parts):
+        if (i > 0 and parts[0] == column_parts[i-1][0]):
+            new_column_names.append(parts[1] if (len(parts) > 1) else parts[0])
+        else:
+            new_column_names.append(parts[0])
+    player_stats.columns = new_column_names
+    
+    return player_stats
  
+
 def create_model(X_train, y_train):
     model = RandomForestClassifier()
     
