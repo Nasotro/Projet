@@ -135,7 +135,28 @@ def get_stats_all_players():
     player_stats.columns = new_column_names
     
     return player_stats
- 
+
+from datetime import datetime
+playerAppearances = None
+def get_list_players(team_id, date:datetime = None):
+    global playerAppearances
+    if(playerAppearances is None):
+        playerAppearances = pd.read_csv("data\player_appearance.csv", sep=",")
+    playerAppearances['date'] = pd.to_datetime(playerAppearances['date'])
+    
+    players_ids = playerAppearances[playerAppearances['date'] >= (date.strftime('%Y-%m-%d') if date != None else '2000-01-01')] [playerAppearances["player_current_club_id"] == team_id]["player_id"]
+    players_ids = players_ids.drop_duplicates()
+    return list(players_ids)
+
+stats_players = None
+def get_players_team_stats(team_id):
+    global stats_players
+    if(stats_players is None):
+        stats_players = get_stats_all_players()
+    
+    players_ids = get_list_players(team_id)
+    return stats_players[stats_players.index.isin(players_ids)]
+
 
 def create_model(X_train, y_train):
     model = RandomForestClassifier()
