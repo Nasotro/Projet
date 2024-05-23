@@ -155,8 +155,37 @@ def get_players_team_stats(team_id):
         stats_players = get_stats_all_players()
     
     players_ids = get_list_players(team_id)
+    # print(f'players_ids : {players_ids}')
     return stats_players[stats_players.index.isin(players_ids)]
 
+teams_stats_updated = {}
+def get_players_team_stats_updated(team_id):
+    global teams_stats_updated
+    if(team_id in teams_stats_updated):
+        return teams_stats_updated[team_id]
+    stats_players = get_players_team_stats(team_id)
+    # print(stats_players)
+    def exp_log_fn(x, num_games):
+        return np.exp(x * np.log(num_games))
+
+    columns = ["avg_goals_per_game", "avg_assists_per_game","avg_yellow_cards_per_game","avg_red_cards_per_game"]
+    stats_players[[f"{col}_updated" for col in columns]]  = stats_players[columns].apply(exp_log_fn, args = (stats_players["total_games"], ))
+    stats_players.drop(columns=["avg_minutes_played_per_game"])
+    teams_stats_updated[team_id] = stats_players
+    return stats_players
+
+def get_updated_stats_players_team_mean(team_id):
+    stats_players = get_players_team_stats_updated(team_id)
+    # print(stats_players)
+    columns = ["avg_goals_per_game", "avg_assists_per_game","avg_yellow_cards_per_game","avg_red_cards_per_game"]
+    # print(stats_players.columns)
+    return (stats_players[[f"{col}_updated" for col in columns]].mean()-1)*100 
+
+def add_updated_stats_players_team_mean(X:pd.DataFrame):
+    columns = ["avg_goals_per_game", "avg_assists_per_game","avg_yellow_cards_per_game","avg_red_cards_per_game"]
+    X[[f"home_club_{col}_updated" for col in columns]] = X["home_club_id"].apply(get_updated_stats_players_team_mean)
+    X[[f"away_club_{col}_updated" for col in columns]] = X["away_club_id"].apply(get_updated_stats_players_team_mean)
+    # X["away_team_players_stats_updated"] = X["away_club_id"].apply(get_updated_stats_players_team_mean)
 
 def create_model(X_train, y_train):
     model = RandomForestClassifier()
