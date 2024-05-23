@@ -8,6 +8,8 @@ from sklearn.metrics import accuracy_score
 from sklearn.pipeline import Pipeline
 from sklearn.impute import SimpleImputer
 
+from datetime import datetime
+
 def add_manager_win_percentage(df:pd.DataFrame):
     manager_home_win_percentage = {}
 
@@ -49,21 +51,26 @@ def add_club_win_percentage_with_referee(df:pd.DataFrame):
 
 playerValuation = None
 playerAppearances = None
-def concatLits(liste):
+teamComps = None
+dataTeams = None
+playerAppearances = None
+stats_players = None
+teams_stats_updated = {}
+
+def concatLists(liste):
     return list(set([item for sublist in liste for item in sublist]))
 def get_score_player(id):
     global playerValuation
     playerValuation = pd.read_csv("data\player_valuation_before_season.csv", sep=",") if playerValuation is None else playerValuation
     player = playerValuation[playerValuation["player_id"] == id]["market_value_in_eur"].apply(lambda x: x/1e6)
     return player.mean() if len(player) > 0 else 0
-teamComps = None
 def get_score_team(team):
     global teamComps
     if(teamComps is None):
         lineups = pd.read_csv("data\game_lineups.csv", sep=",")
         teamComps = lineups.groupby(['club_id'])['player_id'].apply(list).reset_index()
         # print(teamComps)
-        teamComps = teamComps.groupby(['club_id'])['player_id'].apply(list).apply(concatLits).reset_index()
+        teamComps = teamComps.groupby(['club_id'])['player_id'].apply(list).apply(concatLists).reset_index()
         teamComps["score"] = teamComps["player_id"].apply(lambda x: sum([get_score_player(i) for i in x]))
         
     return teamComps[teamComps["club_id"] == team]["score"].values[0]
@@ -82,8 +89,6 @@ def convert_string_to_thousands(s):
     multiplier = {'k': 1, 'm': 1000}.get(s[-1:], 1)
     # Return the numeric value multiplied by the multiplier
     return value * multiplier * sign
-
-dataTeams = None
 def add_price_players(data:pd.DataFrame):
     global dataTeams
     if(dataTeams is None):
@@ -100,8 +105,6 @@ def add_price_players(data:pd.DataFrame):
                                     right_on='club_id',
                                     how='left')#.rename(columns={'transfer_num': 'transfer_away_team'})
     data["transfer_away_team"] = dataTemp["transfer_num"]
-
-playerAppearances = None
 def get_stats_all_players():
     global playerAppearances
     if(playerAppearances is None):
@@ -135,9 +138,6 @@ def get_stats_all_players():
     player_stats.columns = new_column_names
     
     return player_stats
-
-from datetime import datetime
-playerAppearances = None
 def get_list_players(team_id, date:datetime = None):
     global playerAppearances
     if(playerAppearances is None):
@@ -148,7 +148,6 @@ def get_list_players(team_id, date:datetime = None):
     players_ids = players_ids.drop_duplicates()
     return list(players_ids)
 
-stats_players = None
 def get_players_team_stats(team_id):
     global stats_players
     if(stats_players is None):
@@ -157,8 +156,6 @@ def get_players_team_stats(team_id):
     players_ids = get_list_players(team_id)
     # print(f'players_ids : {players_ids}')
     return stats_players[stats_players.index.isin(players_ids)]
-
-teams_stats_updated = {}
 def get_players_team_stats_updated(team_id):
     global teams_stats_updated
     if(team_id in teams_stats_updated):
@@ -173,14 +170,12 @@ def get_players_team_stats_updated(team_id):
     stats_players.drop(columns=["avg_minutes_played_per_game"])
     teams_stats_updated[team_id] = stats_players
     return stats_players
-
 def get_updated_stats_players_team_mean(team_id):
     stats_players = get_players_team_stats_updated(team_id)
     # print(stats_players)
     columns = ["avg_goals_per_game", "avg_assists_per_game","avg_yellow_cards_per_game","avg_red_cards_per_game"]
     # print(stats_players.columns)
     return (stats_players[[f"{col}_updated" for col in columns]].mean()-1)*100 
-
 def add_updated_stats_players_team_mean(X:pd.DataFrame):
     columns = ["avg_goals_per_game", "avg_assists_per_game","avg_yellow_cards_per_game","avg_red_cards_per_game"]
     X[[f"home_club_{col}_updated" for col in columns]] = X["home_club_id"].apply(get_updated_stats_players_team_mean)
