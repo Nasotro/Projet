@@ -10,44 +10,58 @@ from sklearn.impute import SimpleImputer
 
 from datetime import datetime
 
-def add_manager_win_percentage(df:pd.DataFrame):
-    manager_home_win_percentage = {}
-
-    for home_club_manager_name in df['home_club_manager_name'].unique():
-        matches_won_at_home = df[df['home_club_manager_name'] == home_club_manager_name]['results'].value_counts().get(1, 0)
+def add_manager_win_percentage_before(df:pd.DataFrame):
+    for index, row in df.iterrows():
+        home_club_manager_name = row['home_club_manager_name']
+        date = row['date']
+        matches_won_at_home = df[(df['home_club_manager_name'] == home_club_manager_name) & (df['date'] < date)]['results'].value_counts().get(1, 0)
         total_matches_at_home = df[df['home_club_manager_name'] == home_club_manager_name].shape[0]
 
-        ratio = matches_won_at_home / total_matches_at_home
-        manager_home_win_percentage[home_club_manager_name] = ratio
+        ratio = matches_won_at_home / total_matches_at_home if total_matches_at_home != 0 else np.nan
+        row['home_club_manager_win_percentage_before'] = ratio
 
-    manager_away_win_percentage = {}
-
-    for away_club_manager_name in df['away_club_manager_name'].unique():
-        matches_won_away = df[df['away_club_manager_name'] == away_club_manager_name]['results'].value_counts().get(-1, 0)
+        away_club_manager_name = row['away_club_manager_name']
+        matches_won_away = df[(df['away_club_manager_name'] == away_club_manager_name) & (df['date'] < date)]['results'].value_counts().get(-1, 0)
         total_matches_away = df[df['away_club_manager_name'] == away_club_manager_name].shape[0]
 
-        ratio = matches_won_away / total_matches_away
-        manager_away_win_percentage[away_club_manager_name] = ratio
+        ratio = matches_won_away / total_matches_away if total_matches_at_home != 0 else np.nan
+        row['away_club_manager_win_percentage_before'] = ratio
+
+        # Update the row
+        df.at[index, 'home_club_manager_win_percentage_before'] = row['home_club_manager_win_percentage_before']
+        df.at[index, 'away_club_manager_win_percentage_before'] = row['away_club_manager_win_percentage_before']
+
+def add_club_win_percentage_with_referee_before(df:pd.DataFrame):
+    for index, row in df.iterrows():
+        home_club_name = row['home_club_name']
+        away_club_name = row['away_club_name']
+        referee = row['referee']
+        date = row['date']
+
+        # Home club
+        matches_won_with_referee = df[(df['home_club_name'] == home_club_name) & (df['referee'] == referee) & (df['date'] < date)]['results'].value_counts().get(1, 0)
+        total_matches_with_referee = df[(df['home_club_name'] == home_club_name) & (df['referee'] == referee) & (df['date'] < date)].shape[0]
+
+        matches_won_with_referee += df[(df['away_club_name'] == home_club_name) & (df['referee'] == referee) & (df['date'] < date)]['results'].value_counts().get(-1, 0)
+        total_matches_with_referee += df[(df['away_club_name'] == home_club_name) & (df['referee'] == referee) & (df['date'] < date)].shape[0]
+
+        ratio = matches_won_with_referee / total_matches_with_referee if total_matches_with_referee != 0 else np.nan
+        row['home_club_win_percentage_with_referee_before'] = ratio
+
+        # Away club
+        matches_won_with_referee = df[(df['home_club_name'] == away_club_name) & (df['referee'] == referee) & (df['date'] < date)]['results'].value_counts().get(1, 0)
+        total_matches_with_referee = df[(df['home_club_name'] == away_club_name) & (df['referee'] == referee) & (df['date'] < date)].shape[0]
+
+        matches_won_with_referee += df[(df['away_club_name'] == away_club_name) & (df['referee'] == referee) & (df['date'] < date)]['results'].value_counts().get(-1, 0)
+        total_matches_with_referee += df[(df['away_club_name'] == away_club_name) & (df['referee'] == referee) & (df['date'] < date)].shape[0]
+
+        ratio = matches_won_with_referee / total_matches_with_referee if total_matches_with_referee != 0 else np.nan
+
+        row['away_club_win_percentage_with_referee_before'] = ratio
         
-    df['home_club_manager_win_percentage'] = df['home_club_manager_name'].map(manager_home_win_percentage)
-    df['away_club_manager_win_percentage'] = df['away_club_manager_name'].map(manager_away_win_percentage)
-
-def add_club_win_percentage_with_referee(df:pd.DataFrame):
-    win_percentage_with_referee = {}
-
-    for referee in df['referee'].unique():
-        for home_club_name in pd.concat([df['home_club_name'],(df['away_club_name'])]).unique():
-            matches_won_with_referee = df[(df['home_club_name'] == home_club_name) & (df['referee'] == referee)]['results'].value_counts().get(1, 0)
-            total_matches_with_referee = df[(df['home_club_name'] == home_club_name) & (df['referee'] == referee)].shape[0]
-
-            matches_won_with_referee += df[(df['away_club_name'] == home_club_name) & (df['referee'] == referee)]['results'].value_counts().get(-1, 0)
-            total_matches_with_referee += df[(df['away_club_name'] == home_club_name) & (df['referee'] == referee)].shape[0]
-
-            ratio = matches_won_with_referee / total_matches_with_referee if total_matches_with_referee != 0 else np.nan
-            win_percentage_with_referee[(home_club_name, referee)] = ratio
-    
-    df['home_club_win_percentage_with_referee'] = df.apply(lambda row: win_percentage_with_referee.get((row['home_club_name'], row['referee']), np.nan), axis=1)
-    df['away_club_win_percentage_with_referee'] = df.apply(lambda row: win_percentage_with_referee.get((row['away_club_name'], row['referee']), np.nan), axis=1)
+        # Update the row# Update the row
+        df.at[index, 'home_club_win_percentage_with_referee_before'] = row['home_club_win_percentage_with_referee_before']
+        df.at[index, 'away_club_win_percentage_with_referee_before'] = row['away_club_win_percentage_with_referee_before']
 
 playerValuation = None
 playerAppearances = None
