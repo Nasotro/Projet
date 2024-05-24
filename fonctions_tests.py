@@ -69,6 +69,7 @@ def add_manager_win_percentage_before(df:pd.DataFrame):
         # Update the row
         df.at[index, 'home_club_manager_win_percentage_before'] = row['home_club_manager_win_percentage_before']
         df.at[index, 'away_club_manager_win_percentage_before'] = row['away_club_manager_win_percentage_before']
+
 def add_club_win_percentage_with_referee_before(df:pd.DataFrame):
     for index, row in df.iterrows():
         home_club_name = row['home_club_name']
@@ -112,11 +113,13 @@ teams_stats_updated = {}
 
 def concatLists(liste):
     return list(set([item for sublist in liste for item in sublist]))
+
 def get_score_player(id):
     global playerValuation
     playerValuation = pd.read_csv("data\player_valuation_before_season.csv", sep=",") if playerValuation is None else playerValuation
     player = playerValuation[playerValuation["player_id"] == id]["market_value_in_eur"].apply(lambda x: x/1e6)
     return player.mean() if len(player) > 0 else 0
+
 def get_score_team(team):
     global teamComps
     if(teamComps is None):
@@ -127,6 +130,7 @@ def get_score_team(team):
         teamComps["score"] = teamComps["player_id"].apply(lambda x: sum([get_score_player(i) for i in x]))
         
     return teamComps[teamComps["club_id"] == team]["score"].values[0]
+
 def add_club_scores(X:pd.DataFrame):
     X["score_away_team"] = X["away_club_id"].apply(get_score_team)
     X["score_home_team"] = X["home_club_id"].apply(get_score_team)
